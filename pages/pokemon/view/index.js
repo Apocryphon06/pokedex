@@ -1,3 +1,5 @@
+import { nanoid } from 'nanoid'
+import Image from 'next/image'
 import React from 'react'
 import Type from '../Type'
 
@@ -41,7 +43,7 @@ function PokemonDetail() {
       {/* Image Card & Details */}
       <div className="flex lg:flex-row flex-col justify-center lg:items-start gap-5">
         <div className="bg-[#f2f2f2] lg:w-[429px] lg:h-[429px] md:h-[561px] md:w-[561px] w-[320px] h-[320px] rounded-md flex items-center justify-center">
-          <img src="https://picsum.photos/300" alt="pokemon" />
+          <Image src="https://picsum.photos/300" alt="pokemon" />
         </div>
         <div className="lg:w-[429px] md:w-[561px] w-[320px]">
           <p className="text-xl">
@@ -55,9 +57,9 @@ function PokemonDetail() {
           <div className="bg-[#2fa7d6] rounded-md p-4 grid grid-cols-2 justify-between items-center gap-y-5">
             {['height', 'category', 'weight', 'abilities', 'gender'].map(
               (item) => (
-                <div>
+                <div key={nanoid()}>
                   <p className="text-white text-lg capitalize">{item}</p>
-                  <p className="text-lg">3'03"</p>
+                  <p className="text-lg">3&apos;03&ldquo;</p>
                 </div>
               ),
             )}
