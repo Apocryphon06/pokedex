@@ -8,6 +8,27 @@ function PokemonDetail() {
         Pokedex
       </p>
 
+      <br />
+      <div className="w-full grid grid-cols-2 items-center justify-center gap-2">
+        <div className="flex justify-center items-center bg-[#a4a4a4] p-4 hover:bg-[#2fa7d6] cursor-pointer">
+          <p className="lg:text-2xl text-2xl font-medium text-white">
+            #0001 &nbsp;{' '}
+            <span className="lg:text-2xl text-2xl font-medium text-[#616161]  ">
+              Ivysaur
+            </span>
+          </p>
+        </div>
+
+        <div className="flex justify-center items-center bg-[#a4a4a4] p-4 hover:bg-[#2fa7d6] cursor-pointer">
+          <p className="lg:text-2xl text-2xl font-medium text-[#616161]  ">
+            Ivysaur &nbsp;{' '}
+            <span className="lg:text-2xl text-2xl font-medium text-white">
+              #0003
+            </span>
+          </p>
+        </div>
+      </div>
+
       <div className="mt-[50px] text-center">
         <p className="lg:text-4xl text-3xl font-light text-[#363636]">
           Ivysaur &nbsp;{' '}
