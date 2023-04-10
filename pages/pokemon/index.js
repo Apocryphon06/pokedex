@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import Button from './Button'
+import { nanoid } from 'nanoid'
 
 function Pokemon() {
   return (
@@ -12,7 +13,7 @@ function Pokemon() {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-[50px] ">
         {[1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(
           (item) => (
-            <Card />
+            <Card key={nanoid()} />
           ),
         )}
       </div>

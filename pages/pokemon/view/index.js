@@ -17,13 +17,11 @@ function PokemonDetail() {
         </p>
       </div>
       <br />
-      {/* Info */}
+      {/* Image Card & Details */}
       <div className="flex lg:flex-row flex-col justify-center lg:items-start gap-5">
-        {/* Image Card */}
         <div className="bg-[#f2f2f2] lg:w-[429px] lg:h-[429px] md:h-[561px] md:w-[561px] w-[320px] h-[320px] rounded-md flex items-center justify-center">
           <img src="https://picsum.photos/300" alt="pokemon" />
         </div>
-        {/* Details */}
         <div className="lg:w-[429px] md:w-[561px] w-[320px]">
           <p className="text-xl">
             Elit esse pariatur sit eu culpa sunt non et.Exercitation proident
