@@ -8,7 +8,7 @@ function Card() {
     <Link href="/pokemon/view">
     <div className="hover:translate-y-[-5px] transition-all cursor-pointer">
       <div className="bg-[#f2f2f2] w-[230px] h-[230px] rounded-md flex items-center justify-center">
-        <Image src="https://picsum.photos/150" alt="pokemon" />
+        <img width={150} height={150} src="https://picsum.photos/150" alt="pokemon" />
       </div>
       <p className="text-sm font-semibold text-gray-500">#0001</p>
       <p className="text-lg capitalize font-medium tracking-wider">Bulbasaur</p>

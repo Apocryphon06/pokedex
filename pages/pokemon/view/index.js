@@ -43,7 +43,7 @@ function PokemonDetail() {
       {/* Image Card & Details */}
       <div className="flex lg:flex-row flex-col justify-center lg:items-start gap-5">
         <div className="bg-[#f2f2f2] lg:w-[429px] lg:h-[429px] md:h-[561px] md:w-[561px] w-[320px] h-[320px] rounded-md flex items-center justify-center">
-          <Image src="https://picsum.photos/300" alt="pokemon" />
+          <img width={300} height={300} src="https://picsum.photos/300" alt="pokemon" />
         </div>
         <div className="lg:w-[429px] md:w-[561px] w-[320px]">
           <p className="text-xl">
